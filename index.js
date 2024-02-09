@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3001;
 
-const version = 40;
+const version = 41;
 app.get("/", (req, res) => {
   res.send(`Hello World! v${version}`);
 });
